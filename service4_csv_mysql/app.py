@@ -1,8 +1,10 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import pandas as pd
 import io
 
 app = Flask(__name__)
+CORS(app)
 
 COLONNES_REQUISES = {'nom_serie', 'valeur'}
 
