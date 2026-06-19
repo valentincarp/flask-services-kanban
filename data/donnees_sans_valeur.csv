@@ -1,0 +1,4 @@
+nom_serie,categorie,date_mesure
+serie_A,temperature,2024-01-15
+serie_A,temperature,2024-01-16
+serie_B,pression,2024-01-17
